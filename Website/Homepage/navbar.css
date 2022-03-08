@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    background-color: #3C6474;
 }
 
 li, a, button {
@@ -38,10 +38,13 @@ header {
 
 .nav_links li a {
     transition: all 0.3 ease 0s;
+    font-size: 20px;
 }
 
 .nav_links li a:hover {
-    color: #0088a9;
+    color: #63A3BB;
+    font-weight: bold;
+    font-size: 26px;
 }
 
 button {
@@ -51,8 +54,10 @@ button {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3 ease 0s;
+    font-size: 20px;
 }
 
 button:hover {
     background-color: rgba(0,136,169,0.8);
+    font-size: 26px;
 }
