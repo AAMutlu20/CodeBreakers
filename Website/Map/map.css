@@ -7,6 +7,11 @@
     background-color: #3C6474;
 }
 
+img {
+    margin: 0px;
+    padding: 4px;
+}
+
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -97,15 +102,4 @@ button:hover {
   
   ::-webkit-scrollbar-thumb:hover {
     background: beige; 
-  }
-
-  .zoom {
-    transition: transform .2s;
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-  
-  .zoom:hover {
-    transform: scale(1.2);
-    overflow: hidden;
   }
