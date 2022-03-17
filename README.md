@@ -9,9 +9,12 @@
 </ul>
 
 <h2>📖 Project Description</h2>
-<h2>🗨️ Presentation</h2>
-<h2>📝 Documentation</h2>
+This is a school project based on the history and geography of the First and the Second
+Bulgarian kingdoms.
+
 <h2>📖 Our Website</h2>
+Our website is based around The First and The Second Bulgarian kingdoms. It provides
+infomation about their territories and the bigger events from their existence.
 
 <hr>
 
