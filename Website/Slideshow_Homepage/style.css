@@ -40,6 +40,8 @@ a {
 .slide-content a {
   font-size: 5rem;
   color: #fff;
+  background-color: rgb(0, 0, 0, 0.7);
+  margin-top: -45px;
 }
 
 .arrow {
