@@ -163,7 +163,7 @@ section::before {
     font-weight: 500;
 }
 
-.container .contactForm .formBox .inputBox input[type="submit"] {
+.container .contactForm .formBox .inputBox input[type="button"] {
     position: relative;
     cursor: pointer;
     background: #095a55;
@@ -177,7 +177,7 @@ section::before {
     display: grid;
 }
 
-.container .contactForm .formBox .inputBox input[type="submit"]:hover {
+.container .contactForm .formBox .inputBox input[type="button"]:hover {
     background: #0d948b;
 }
 
