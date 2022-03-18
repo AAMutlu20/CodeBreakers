@@ -48,7 +48,22 @@
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   margin-top: -400px;
-  margin-left: 440px;
+  margin-left: 415px;
+  border-radius: 8px;
+  -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+  box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+  font-family: 'Poppins',sans-serif;
+}
+
+.fourthCard
+{
+  height: 400px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.06);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  margin-top: -400px;
+  margin-left: 788px;
   border-radius: 8px;
   -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
   box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
