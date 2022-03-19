@@ -18,6 +18,12 @@ section.sec1 {
     background-size: cover;
 }
 
+#mapid { 
+  top: 15%;
+  left: 2.5%;
+  width: 90%;
+  height: 75vh;
+}
 
 nav {
   position: fixed;
