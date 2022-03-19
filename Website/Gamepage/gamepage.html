@@ -1,36 +1,98 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Bungee|Niconne|Playball" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
-    <link rel="stylesheet" type="text/css" href="gamepage.css">
-    <link rel="shortcut icon" href="../Team Logo/Code_Breakers_logo.png">
-    <title>Game</title>
+    <script src="assets/javascript/game.js"></script>
 </head>
-<body>
+<body onload="startGame()">
 
-   <nav>
-       <div class = "brand">    
-        <img src="../Team Logo/Code_Breakers_logo.png" alt="logo" height="80" width="120">
-       </div>
-       <ul>
-            <li><a href="../Slideshow_Homepage/index.html">Main Page</a></li>
-            <li><a href="../MainPage/MainPage.html">Content</a></li>
-            <li><a href="../Map/map.html">Map</a></li>
-            <li><a href="../Timeline1/Timeline1.html">Timeline</a></li>
-            <li><a href="../Gamepage/gamepage.html">Game</a></li>
-            <li><a href="../ContactUs/ContactUs.html">Contact us</a></li>
-            <li><a href="../About/about.html">About Us</a></li>
-        </ul>
-   </nav>
-   <section class = "sec1"></section>
-   <section class = "sec2"></section>
+    <div class="jumbotron-fluid text-center bg m-0 p-0">
+            <img class=" .img-responsive m-0 p-0 florence" src="assets/images/florence.jpg" alt="Intro image of Florence">
+            <div class="text-block">
+                <h1 class="title">Guess the Word</h1> 
+                <h1 class="italics">Countries in Europe</h1>
+            </div>
+            <div class="container text-center level">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <h5 class="difficulty">Choose the Level of Difficulty:</h5>
+                
+                            <button type="button" class="btn btn-success m-2" onclick="easyBtn()">Easy</button>
+                            <button type="button" class="btn btn-warning m-2" onclick="medBtn()">Medium</button>
+                            <button type="button" class="btn btn-danger m-2" onclick="hardBtn()">Hard</button>
+                    </div>
+            </div>
+    </div>
 
+    <audio id ="audio" src="">
+    </audio>
+
+    <div class="container text-center d-flex align-items-center justify-content-center">
+        <h5 id = "country" class = "difficulty mr-2"></h5>
+        <h7 id ='info' class= "difficulty">National Anthem Audio:</h7>
+        
+        <button onclick="playPauseAudio()"  id ='pausePlay' type='button' class='btn btn-primary btn-sm m-2'>
+            <i class="fas fa-play fa-xs"></i>   
+            <i class="fas fa-pause fa-xs"></i>
+        </button>
+        
+        <a id ="source" href="http://www.nationalanthems.info/" target="_blank"></a>
+    </div>
+
+    <div class="container justify-content-center game">
+            <table>
+                <tr class="row">
+                    <td class="left-column col-md-6 m-0 p-0">
+                            <img id="globe" class="img-responsive m-0 p-0 " src="assets/images/antique.jpg" alt="Picture of Globe or Country">
+                            <h5 class="loseOutcome"></h5>
+                            
+                    </td>
+                    <td class="right-column col-md-6 outcome m-0 p-0 ">
+                        <div class="mb-2">
+                            <h6 class="gameHeader">Guess the Country in Europe!</h6>
+                            <h5 class='AZ'>Press A-Z to Guess!</h5>
+                            <h5 class="winOutcome"></h5>
+
+                        </div>
+                                
+                            <table>
+                                <div class="row m-0 p-0  justify-content-center">
+                                    <div class="winBackground col-md-4 m-1 p-0 mr-3  border border-success">
+                                        <h7 class="winsHeader">Wins</h7>
+                                        <h6 class= "wins mt-1"></h6>
+                                    </div>
+                                    <div class="loseBackground col-md-4 m-1 p-0 ml-3 border border-danger">
+                                        <h7 class ="lossesHeader">Losses</h7>
+                                        <h6 class= "losses mt-1"></h6>
+                                    </div>
+                            </table>
+
+                                <h4>Current Word:</h4>
+                                <h3 class="displayWord mb-2"></h3>
+                                <h5 class="guessRem">Number of Guesses Remaining: </h5>
+                                <h5 class="guessLeft mb-2"></h5>
+                                <h5 class="letters">Letters Already Guessed: </h5>
+                                <h5 class="guessedLetter mb-2"></h5>
+                                
+                    </td>
+                </tr>
+            </table>
+
+            </div>
+    </div>
 
     <div class="footer-basic">
         <footer>
