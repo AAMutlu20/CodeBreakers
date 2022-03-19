@@ -14,7 +14,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #13944f;
+    background: #754f23;
 }
 
 section::before {
@@ -24,7 +24,7 @@ section::before {
     left: 0;
     width: 50%;
     height: 100%;
-    background: #28e07e;
+    background: #ab7d4f;
 }
 
 .container {
@@ -40,7 +40,7 @@ section::before {
     top: 40px;
     width: 350px;
     height: calc(100% - 80px);
-    background-color: #13944f;
+    background-color: #d3a46e;
     z-index: 1;
     padding: 40px;
     display: flex;
@@ -51,7 +51,7 @@ section::before {
 }
 
 .container .contactInfo h2 {
-    color: #fff;
+    color: #1f1712;
     font-size: 24px;
     font-weight: 500;
 }
@@ -67,6 +67,7 @@ section::before {
     display: flex;
     margin: 20px 0;
     cursor: pointer;
+	color: #1f1712;
     align-items: flex-start;
 }
 
@@ -81,7 +82,7 @@ section::before {
 }
 
 .container .contactInfo ul.info li span:nth-child(2) {
-    color: #fff;
+    color: #1f1712;
     margin-left: 10px;
     font-weight: 300;
 }
@@ -93,12 +94,12 @@ section::before {
     margin-left: 150px;
     width: calc(100% - 150px);
     height: 100%;
-    background: #fff;
+    background: #aaa59e;
     box-shadow: 0 50px 50px rgba(0,0,0,0.25);
 }
 
 .container .contactForm h2 {
-    color: #0f3959;
+    color: #1f1712;
     font-size: 24px;
     font-weight: 500;
 }
@@ -127,11 +128,12 @@ section::before {
 .container .contactForm .formBox .inputBox input,
 .container .contactForm .formBox .inputBox textarea {
     width: 100%;
+	background: #aaa59e;
     resize: none;
     padding: 5px 0;
     font-size: 18px;
     font-weight: 300;
-    color: #333;
+    color: black;
     border: none;
     outline: none;
     border-bottom: 1px solid #777;
@@ -159,26 +161,34 @@ section::before {
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #095a55;
+    color: #7c4c1c;
     font-weight: 500;
 }
 
 .container .contactForm .formBox .inputBox input[type="button"] {
-    position: relative;
-    cursor: pointer;
-    background: #095a55;
-    color: #fff;
-    border: none;
-    max-width: 220px;
-    padding: 12px;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    display: grid;
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #603e20;
+  background-color: #b8773d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
 
 .container .contactForm .formBox .inputBox input[type="button"]:hover {
-    background: #0d948b;
+    background: #c68853;
+}
+
+.container .contactForm .formBox .inputBox input[type="button"]:active {
+  background-color: #d2a379;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+	
 }
 
 @media (max-width : 1200px) {
@@ -263,8 +273,8 @@ section::before {
 
 .footer-basic {
     padding:40px 0;
-    background-color: #80ff80;
-    color: black;
+    background-color: #734a26;
+    color: #eeedec;
     font-weight: bold   ;
   }
   
@@ -318,7 +328,7 @@ section::before {
     margin-top:15px;
     text-align:center;
     font-size:13px;
-    color: black;
+    color: #ccc9c5;
     font-weight: bold;
     margin-bottom:0;
   }
