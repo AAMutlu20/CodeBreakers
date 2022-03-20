@@ -2,7 +2,7 @@
 <br>
 
 ## Topic
-This site is about the history of The First Bulgarian Empire and The Second Bulgarian Empire. 
+This site is about the history of The First Bulgarian Kingdom and The Second Bulgarian Kingdom. 
 
 ## Used technologies
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/710px-Javascript_badge.svg.png" width="15" height="15"> Javascript
