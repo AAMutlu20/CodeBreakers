@@ -1,25 +1,23 @@
-<h1 align="center">CodeBreakers</h1>
+<h1 align="center" >⚛️Code Breakers⚛️</h1>
+<br>
 
-<h2>🖥️ Team Members</h2>
-<ul>
-  <li><a href="https://github.com/AAMutlu20%22%3E"</a> Andrey Mutlu - Scrum Trainer</li>
-  <li><a href="https://github.com/DDStaykov20%22%3EDimitar"</a>Dimitar Staykov - Designer</li>
-  <li><a href="https://github.com/ESBogdanov20%22%3E"</a>Emil Bogdanov - Backend Developer</li>
-  <li><a href="https://github.com/IATsrangalov20%22%3E"</a>Ivan Tsrangalov - Backend Developer</li>
-</ul>
+## Topic
+This site is about the history of The First Bulgarian Empire and The Second Bulgarian Empire. 
 
-<h2>📖 Project Description</h2>
-This is a school project based on the history and geography of the First and the Second
-Bulgarian kingdoms.
+## Used technologies
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/710px-Javascript_badge.svg.png" width="15" height="15"> Javascript
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" width="15" height="15"> HTML
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width="15" height="15"> Css
 
-<h2>📖 Our Website</h2>
-Our website is based around The First and The Second Bulgarian kingdoms. It provides
-infomation about their territories and the bigger events from their existence.
+## Features
+✅ Site related to the subject of history. <br>
+✅ 2 topics - First and Second Bulgarian Empire. <br>
+✅ Maps of the Empires. <br>
+✅ General information. <br>
+✅ Contact us. <br>
 
-<hr>
-
-<h1 align="center">
-
-Enjoy our project!🌍
-
-</h1>
+## Our Team
+- Andrey Mutlu (Scrum Trainer)
+- Ivan Tsrangalov (Frontend developer)
+- Dimitar Staykov (Designer)
+- Emil Bogdanov (Backend developer)
