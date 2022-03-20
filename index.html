@@ -10,26 +10,118 @@
 
     <link rel="stylesheet" type="text/css" href="Website/Home/style.css">
     <link rel="shortcut icon" href="Website/Team Logo/Code_Breakers_logo.png">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Home</title>
 </head>
 <body>
+   <section class = "sec1"></section>
 
-   <nav>
-       <div class = "brand">    
-        <img src="Website/Team Logo/Code_Breakers_logo.png" alt="logo" height="80" width="120">
-       </div>
-       <ul>
+<div class="navigation w3-highway-blue w3-container">
+        <nav class="nav-container w3-padding-large">
+          <div class="logo">
+            <a href="#home" >CODE<span>BREAKERS</span></a>
+          </div>
+          <div class="mobile-button">
+            <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+          </div>
+          <div class="links">
             <li><a href="index.html">Home</a></li>
             <li><a href="Website/Map/map.html">Map</a></li>
             <li><a href="Website/Timeline1/Timeline1.html">Timeline</a></li>
             <li><a href="Website/Gamepage/gamepage.html">Game</a></li>
             <li><a href="Website/ContactUs/ContactUs.html">Contact us</a></li>
-            <li><a href="Website/About/about.html">About Us</a></li>
-        </ul>
-   </nav>
-   <section class = "sec1"></section>
+            <li><a href="Website/About/about.html">About Us</a></li>          
+          </div>
+          <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
+            <div class="mobile-logo" style="display: inline;">
+              <a href="#home" class="logo">CODE<span>BREAKERS</span></a>
+              <span style="width: 100%;"></span>
+              <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileNavigation()">&times;</a>
+            </div>
+            <li><a href="index.html" onclick="toggleMobileNavigation()">Home</a></li>
+            <li><a href="Website/Map/map.html" onclick="toggleMobileNavigation()">Map</a></li>
+            <li><a href="Website/Timeline1/Timeline1.html" onclick="toggleMobileNavigation()">Timeline</a></li>
+            <li><a href="Website/Gamepage/gamepage.html" onclick="toggleMobileNavigation()">Game</a></li>
+            <li><a href="Website/ContactUs/ContactUs.html" onclick="toggleMobileNavigation()">Contact us</a></li>
+            <li><a href="Website/About/about.html" onclick="toggleMobileNavigation()">About Us</a></li> 
+          </div>
+        </nav>
+      </div>
 
+      <div class="hero" id="home">
+        <div class="text container">
+          <p class="pre-title">Education about Bulgaria!</p>
+          <h1 class="title"> CODE<span>BREAKERS</span></h1>
+          <p class="post-title">Click and Learn!</p>
+        </div>
+      </div>
+
+      <div class="about container w3-padding-large" id="about">
+        <div class="text-one">
+          <h2>About Us</h2>
+          <p>We are students from the Vocational School for Computer programing and Innovations. If you want to know more about us
+		     and our roles for this project click the button below.</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="Website/About/about.html">Read more</a> 
+        </div>
+        <div class="text-one">
+          <h2>Our Vision</h2>
+          <p>We created this website for a shool project with the idea to inform people about the history of the First and Second Bulgarian kingdoms.
+			 if you want to learn more about their history and geography click on the button below.</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="Website/Timeline1/Timeline1.html">Read more</a> 
+        </div>
+      </div>
+
+      <div class="services container" id="services">
+        <h2 class="w3-center">Our tabs</h2>
+        <div class="cards w3-padding-large w3-margin-top">
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>Home</h3>
+            <div class="card-text">
+              <p>This is the page you are looking at. Its the header page to this website.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>Map</h3>
+            <div class="card-text">
+              <p>This tab contains the maps of the two bulgarian kingdoms</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>About Us</h3>
+            <div class="card-text">
+              <p>This page contains information about our Team</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>Contact Us</h3>
+            <div class="card-text">
+              <p>With the use of this tab <span class="">you</span> can 
+			  <span class="">contact us</span> and send us an email.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>Timeline</h3>
+            <div class="card-text">
+              <p>This tab represents the timeline of the two kingdoms. Each one shows important
+				 historical events from their lifespan.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>Game Page</h3>
+             <div class="card-text">
+              <p>Here we created a cool little game for the people visiting the site to enjoy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <div class="footer-basic">
         <footer>
@@ -46,6 +138,8 @@
             <p class="copyright">CodeBreakers © 2022</p>
         </footer>
     </div>
+	
+	
 
 </body>
 </html>
