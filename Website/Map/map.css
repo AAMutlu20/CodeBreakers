@@ -45,9 +45,9 @@ html, body {
 .map-container .point {
   cursor: pointer;
   position: absolute;
-  width: 0.9rem;
-  height: 0.9rem;
-  background-color: #00acc1;
+  width: 1.3rem;
+  height: 1.3rem;
+  background-color: #FFFF00;
   border-radius: 50%;
   transition: all 0.3s ease;
   will-change: transform, box-shadow;
@@ -63,18 +63,18 @@ html, body {
 }
 
 .map-container .preslav {
-  top:356px;
+  top:359px;
   left: 816px;
 }
 
 .map-container .pliska {
-  top: 345px;
+  top: 349px;
   left: 849px;
 }
 
 .map-container .ohrid {
   top: 516px;
-  left: 313px;
+  left: 309px;
 }
 
 @keyframes pulse {
