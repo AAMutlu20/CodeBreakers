@@ -66,19 +66,19 @@ html, body {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-.map-container .preslav {
-  top:359px;
-  left: 816px;
+.map-container .tarnovo {
+  top: 331px;
+  left: 721px;
 }
 
-.map-container .pliska {
-  top: 349px;
-  left: 849px;
+.map-container .vidin {
+  top: 270px;
+  left: 486px;
 }
 
-.map-container .ohrid {
-  top: 516px;
-  left: 309px;
+.map-container .nikipol {
+  top: 289px;
+  left: 657px;
 }
 
 @keyframes pulse {
