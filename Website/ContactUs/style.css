@@ -7,8 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 section {
     display: flex;
     justify-content: center;
@@ -273,9 +271,9 @@ section::before {
 
 .footer-basic {
     padding:40px 0;
-    background-color: #734a26;
-    color: #eeedec;
-    font-weight: bold   ;
+    background-color: #d9b38c;
+    color: black;
+    font-weight: bold;
   }
   
   .footer-basic ul {
@@ -316,8 +314,8 @@ section::before {
     border-radius:50%;
     border:1px solid #ccc;
     margin:0 8px;
-    color:inherit;
-    opacity:0.75;
+    color: inherit;
+    opacity: 0.75;
   }
   
   .footer-basic .social > a:hover {
@@ -328,7 +326,7 @@ section::before {
     margin-top:15px;
     text-align:center;
     font-size:13px;
-    color: #ccc9c5;
+    color: black;
     font-weight: bold;
-    margin-bottom:0;
+    margin-bottom: 0;
   }
