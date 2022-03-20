@@ -1,4 +1,4 @@
-<h1 align="center" >⚛️Code Breakers⚛️</h1>
+<h1 align="center" >🖥Code Breakers🖥</h1>
 <br>
 
 ## Topic
@@ -11,8 +11,8 @@ This site is about the history of The First Bulgarian Kingdom and The Second Bul
 
 ## Features
 ✅ Site related to the subject of history. <br>
-✅ 2 topics - First and Second Bulgarian Empire. <br>
-✅ Maps of the Empires. <br>
+✅ 2 topics - First and Second Bulgarian Kingdom. <br>
+✅ Maps of the Kingdoms. <br>
 ✅ 2 timelines with important years. <br>
 ✅ General information. <br>
 ✅ Contact us. <br>
@@ -22,3 +22,6 @@ This site is about the history of The First Bulgarian Kingdom and The Second Bul
 - Ivan Tsrangalov (Frontend developer)
 - Dimitar Staykov (Designer)
 - Emil Bogdanov (Backend developer)
+
+##
+<h1 align="center" >Enjoy our site ⚔️</h1>
