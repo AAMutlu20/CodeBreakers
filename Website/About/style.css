@@ -147,6 +147,7 @@ button{
   top: 240px;
   border-radius: 5px;
   outline: none;
+  box-shadow: 3px 3px 10px black;
 }
 
 section.sec1 {
@@ -155,8 +156,6 @@ section.sec1 {
     background-color: #3C6474;
     background-size: cover;
 }
-
-
 
 nav {
   position: fixed;
